@@ -1,0 +1,13 @@
+for smtc
+
+power by :pycharm for anaconda pro，其间安装了mini-anaconda
+默认python3.8.10(不升级)、conda环境
+
+1. pip install pandas
+   pip install lxml
+   search install beautifulsoup4
+   search install requests
+   pip install mkl
+   pip install jupyter
+   pip install matplotlib
+   search install scipy 1.5.2
