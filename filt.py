@@ -12,6 +12,7 @@ name_list = ['ordinary user', 'blue-1', 'blue-2', 'blue-3', 'orange gold-1', 'or
 path_list = []
 for j in range(len(name_list)):
     path_list.append(ph(name=f'{name_list[j]}'))
+record.Document.mkdir(f'{record.local_path}/_csv')
 txt_path = record.User_path.csv_txt()
 txt_f = open(txt_path, "a+")
 for j in range(len(path_list)):
